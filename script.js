@@ -1,4 +1,4 @@
-const accessKey = "HPTsf5h-juGjJ46h9FtqinjfKCAKwMxJXhm7ndUf-rY"
+const accessKey = ""
 
 const formEl = document.querySelector("form");
 const inputEl = document.querySelector("#search-input")
@@ -12,7 +12,7 @@ let page = 1;
 let searchImages = async ()=>{
     inputData=inputEl.value;
 
-    const url = `https://api.unsplash.com/search/photos?page=${page}&query=${inputData}&client_id=${accessKey}`
+    const url = ``
 
     
         const res = await fetch(url);
